@@ -1,5 +1,5 @@
 #import "Param.h"
 
-@interface Text : Param
+@interface TextL : Param
 
 @end

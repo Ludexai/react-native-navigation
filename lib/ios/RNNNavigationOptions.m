@@ -43,8 +43,8 @@
     self.popGesture = [[Bool alloc] initWithValue:dict[@"popGesture"]];
     self.backgroundImage = [ImageParser parse:dict key:@"backgroundImage"];
     self.rootBackgroundImage = [ImageParser parse:dict key:@"rootBackgroundImage"];
-    self.modalPresentationStyle = [[Text alloc] initWithValue:dict[@"modalPresentationStyle"]];
-    self.modalTransitionStyle = [[Text alloc] initWithValue:dict[@"modalTransitionStyle"]];
+    self.modalPresentationStyle = [[TextL alloc] initWithValue:dict[@"modalPresentationStyle"]];
+    self.modalTransitionStyle = [[TextL alloc] initWithValue:dict[@"modalTransitionStyle"]];
 
     return self;
 }

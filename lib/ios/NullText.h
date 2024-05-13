@@ -1,5 +1,5 @@
-#import "Text.h"
+#import "TextL.h"
 
-@interface NullText : Text
+@interface NullText : TextL
 
 @end

@@ -134,8 +134,8 @@
 		5038A3CB216E328A009280BC /* Param.m in Sources */ = {isa = PBXBuildFile; fileRef = 5038A3C9216E328A009280BC /* Param.m */; };
 		5038A3CE216E35E0009280BC /* Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038A3CC216E35E0009280BC /* Dictionary.h */; };
 		5038A3CF216E35E0009280BC /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5038A3CD216E35E0009280BC /* Dictionary.m */; };
-		5038A3D2216E364C009280BC /* Text.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038A3D0216E364C009280BC /* Text.h */; };
-		5038A3D3216E364C009280BC /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 5038A3D1216E364C009280BC /* Text.m */; };
+		5038A3D2216E364C009280BC /* TextL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038A3D0216E364C009280BC /* TextL.h */; };
+		5038A3D3216E364C009280BC /* TextL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5038A3D1216E364C009280BC /* TextL.m */; };
 		50395587217480C900B0A663 /* IntNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 50395585217480C900B0A663 /* IntNumber.h */; };
 		50395588217480C900B0A663 /* IntNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 50395586217480C900B0A663 /* IntNumber.m */; };
 		5039558B2174829400B0A663 /* IntNumberParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 503955892174829400B0A663 /* IntNumberParser.h */; };
@@ -674,8 +674,8 @@
 		5038A3C9216E328A009280BC /* Param.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Param.m; sourceTree = "<group>"; };
 		5038A3CC216E35E0009280BC /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
 		5038A3CD216E35E0009280BC /* Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
-		5038A3D0216E364C009280BC /* Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
-		5038A3D1216E364C009280BC /* Text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
+		5038A3D0216E364C009280BC /* TextL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextL.h; sourceTree = "<group>"; };
+		5038A3D1216E364C009280BC /* TextL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextL.m; sourceTree = "<group>"; };
 		50395585217480C900B0A663 /* IntNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntNumber.h; sourceTree = "<group>"; };
 		50395586217480C900B0A663 /* IntNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntNumber.m; sourceTree = "<group>"; };
 		503955892174829400B0A663 /* IntNumberParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntNumberParser.h; sourceTree = "<group>"; };
@@ -1257,8 +1257,8 @@
 				503A8A0423BB850A0094D1C4 /* TimeInterval.m */,
 				5038A3CC216E35E0009280BC /* Dictionary.h */,
 				5038A3CD216E35E0009280BC /* Dictionary.m */,
-				5038A3D0216E364C009280BC /* Text.h */,
-				5038A3D1216E364C009280BC /* Text.m */,
+				5038A3D0216E364C009280BC /* TextL.h */,
+				5038A3D1216E364C009280BC /* TextL.m */,
 				50495937216E5750006D2B81 /* Bool.h */,
 				50495938216E5750006D2B81 /* Bool.m */,
 				5012241421736667000F5F98 /* Color.h */,
@@ -1920,7 +1920,7 @@
 				50C085EB259143F200B0502C /* RNNButtonsParser.h in Headers */,
 				7B1126A31E2D2B6C00F9B03B /* RNNSplashScreen.h in Headers */,
 				50C23E6225F51BAA0045A047 /* RNNEnterExitAnimation.h in Headers */,
-				5038A3D2216E364C009280BC /* Text.h in Headers */,
+				5038A3D2216E364C009280BC /* TextL.h in Headers */,
 				261F0E641E6EC94900989DE2 /* RNNModalManager.h in Headers */,
 				50344D2823A03DB4004B6A7C /* BottomTabsAttachMode.h in Headers */,
 				5082CC3323CDC3B800FD2B6A /* HorizontalTranslationTransition.h in Headers */,
@@ -2401,7 +2401,7 @@
 				E8E5182F1F83A48B000467AC /* RNNTransitionStateHolder.m in Sources */,
 				B841532A251E08E700467F37 /* Interpolator.h in Sources */,
 				263905B61E4C6F440023D7D3 /* MMExampleDrawerVisualStateManager.m in Sources */,
-				5038A3D3216E364C009280BC /* Text.m in Sources */,
+				5038A3D3216E364C009280BC /* TextL.m in Sources */,
 				5017D9E2239D2C6C00B74047 /* BottomTabsAttachModeFactory.m in Sources */,
 				5012240F21735999000F5F98 /* RNNBasePresenter.m in Sources */,
 				503A8A1E23BCB3230094D1C4 /* RNNReactTitleView.m in Sources */,

@@ -9,7 +9,7 @@
 @property(nonatomic, strong) Bool *obscuresBackgroundDuringPresentation;
 @property(nonatomic, strong) Color *backgroundColor;
 @property(nonatomic, strong) Color *tintColor;
-@property(nonatomic, strong) Text *placeholder;
-@property(nonatomic, strong) Text *cancelText;
+@property(nonatomic, strong) TextL *placeholder;
+@property(nonatomic, strong) TextL *cancelText;
 
 @end

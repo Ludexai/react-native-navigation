@@ -4,8 +4,8 @@
 
 @implementation TextParser
 
-+ (Text *)parse:(NSDictionary *)json key:(NSString *)key {
-    return json[key] ? [[Text alloc] initWithValue:json[key]] : [NullText new];
++ (TextL *)parse:(NSDictionary *)json key:(NSString *)key {
+    return json[key] ? [[TextL alloc] initWithValue:json[key]] : [NullText new];
 }
 
 @end

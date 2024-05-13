@@ -2,9 +2,9 @@
 
 @interface RNNComponentOptions : RNNOptions <NSCopying>
 
-@property(nonatomic, strong) Text *name;
-@property(nonatomic, strong) Text *componentId;
-@property(nonatomic, strong) Text *alignment;
+@property(nonatomic, strong) TextL *name;
+@property(nonatomic, strong) TextL *componentId;
+@property(nonatomic, strong) TextL *alignment;
 @property(nonatomic, strong) Bool *waitForRender;
 
 - (BOOL)hasValue;
